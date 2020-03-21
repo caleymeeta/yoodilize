@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="2"
+            tests="2">
+
+  <testsuite name="yoodlize1"
+    errors="1" failures="2" hostname="" id="" package="yoodlize1" skipped="0"
+    tests="2" time="45.70" timestamp="">
+  
+    <testcase name="Test 1" classname="yoodlize1" time="24.23" assertions="1">  <failure message="Testing if element [0;33m&lt;//div[@class=&#34;sc-jKVCRD jSqgxr&#34;]&gt;[0m contains text [0;33m&#39;Tools&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Tools&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5460ms)[0m">    at Object.Test 1 (/Users/meetasingh/Desktop/devmountain/yoodlize/tests/yoodlize1.js:16:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+      <failure message="    at Object.Test 1 (/Users/meetasingh/Desktop/devmountain/yoodlize/tests/yoodlize1.js:16:13)">    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+      <error message="Error while running &#34;containsText&#34; command: Testing if element [0;33m&lt;//div[@class=&#34;sc-jKVCRD jSqgxr&#34;]&gt;[0m contains text [0;33m&#39;Tools&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Tools&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5460ms)[0m" type="error">    at processTicksAndRejections (internal/process/task_queues.js:97:5)</error>
+    
+    </testcase>
+  
+    <testcase name="Test 2" classname="yoodlize1" time="21.47" assertions="1">  <failure message="Testing if element [0;33m&lt;//div[@class=&#34;sc-jKVCRD jSqgxr&#34;]&gt;[0m contains text [0;33m&#39;CLothing&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;CLothing&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;CLothing&#39;&#34;[0m [0;90m(5232ms)[0m">    at Object.Test 2 (/Users/meetasingh/Desktop/devmountain/yoodlize/tests/yoodlize1.js:24:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+      <failure message="    at Object.Test 2 (/Users/meetasingh/Desktop/devmountain/yoodlize/tests/yoodlize1.js:24:13)">    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .getText() command on &lt;//div[@class=&#34;sc-jKVCRD jSqgxr&#34;]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;c88ff0e4d3b4a7edc8c4e52cb1c49ebd&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
