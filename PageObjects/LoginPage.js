@@ -8,7 +8,7 @@ module.exports = {
         password : 'input[name="password"]',
         loginclickbutton: {
             selector: '//button[text()="Login in"]',
-            locateStrategy: 'xpath'
+            locateStrategy: 'xpath' 
         },
 
     
